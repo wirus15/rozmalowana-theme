@@ -1,0 +1,13 @@
+{
+    "name": "wirus15/rozmalowana-theme",
+    "type": "wordpress-theme",
+    "version": "0.1",
+    "license": "GPL-3.0",
+    "authors": [{
+        "name": "Maciej Krawczyk",
+        "email": "wirus15@gmail.com"
+    }],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
