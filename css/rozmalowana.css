@@ -1,0 +1,11 @@
+body {
+  max-width: 1200px;
+  margin: auto; }
+  body .header .header-inner .logo img {
+    height: 100px; }
+  body .pagewrap1, body .pagewrap2, body .postwrap3 {
+    visibility: visible; }
+  body .services-wrap {
+    max-width: 1140px !important; }
+
+/*# sourceMappingURL=rozmalowana.css.map */

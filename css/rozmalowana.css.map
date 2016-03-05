@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;EAIN,oCAAI;IACF,MAAM,EAAE,KAAK;EAKrB,iDAAmC;IACjC,UAAU,EAAE,OAAO;EAErB,mBAAe;IACb,SAAS,EAAE,iBAAiB",
+"sources": ["rozmalowana.scss"],
+"names": [],
+"file": "rozmalowana.css"
+}

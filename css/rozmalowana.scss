@@ -1,0 +1,19 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  .header {
+    .header-inner {
+      .logo {
+        img {
+          height: 100px;
+        }
+      }
+    }
+  }
+  .pagewrap1, .pagewrap2, .postwrap3 {
+    visibility: visible;
+  }
+  .services-wrap {
+    max-width: 1140px !important;
+  }
+}
