@@ -6,8 +6,6 @@ body {
   body .pagewrap1, body .pagewrap2, body .postwrap3 {
     visibility: visible; }
   body .services-wrap {
-    max-width: 1140px !important;
-    margin-top: 0;
     display: -webkit-box;
     /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;
@@ -18,7 +16,9 @@ body {
     /* NEW, Spec - Firefox, Chrome, Opera */
     flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
-    -webkit-flex-wrap: nowrap; }
+    -webkit-flex-wrap: nowrap;
+    max-width: 1140px !important;
+    margin-top: 0; }
     body .services-wrap .listpages {
       width: auto;
       float: none;
@@ -32,34 +32,54 @@ body {
         body .services-wrap .listpages .image img {
           border: none;
           object-fit: cover;
-          -webkit-transition: all 2s ease-out;
+          -webkit-transition: all 2s ease;
           /* Safari and Chrome */
-          -moz-transition: all 2s ease-out;
+          -moz-transition: all 2s ease;
           /* Firefox */
-          -o-transition: all 2s ease-out;
+          -o-transition: all 2s ease;
           /* IE 9 */
-          -ms-transition: all 2s ease-out;
+          -ms-transition: all 2s ease;
           /* Opera */
-          transition: all 2s ease-out;
+          transition: all 2s ease;
           -webkit-filter: saturate(0.8);
           -moz-filter: saturate(0.8);
           -o-filter: saturate(0.8);
           -ms-filter: saturate(0.8);
           filter: saturate(0.8); }
-        body .services-wrap .listpages .image:hover img {
-          -webkit-transform: scale(1.25);
-          /* Safari and Chrome */
-          -moz-transform: scale(1.25);
-          /* Firefox */
-          -ms-transform: scale(1.25);
-          /* IE 9 */
-          -o-transform: scale(1.25);
-          /* Opera */
-          transform: scale(1.25);
-          -webkit-filter: saturate(1.5);
-          -moz-filter: saturate(1.5);
-          -o-filter: saturate(1.5);
-          -ms-filter: saturate(1.5);
-          filter: saturate(1.5); }
+      body .services-wrap .listpages h4 {
+        -webkit-transition: color 0.3s ease;
+        /* Safari and Chrome */
+        -moz-transition: color 0.3s ease;
+        /* Firefox */
+        -o-transition: color 0.3s ease;
+        /* IE 9 */
+        -ms-transition: color 0.3s ease;
+        /* Opera */
+        transition: color 0.3s ease; }
+      body .services-wrap .listpages:hover .image img {
+        -webkit-transform: scale(1.15);
+        /* Safari and Chrome */
+        -moz-transform: scale(1.15);
+        /* Firefox */
+        -ms-transform: scale(1.15);
+        /* IE 9 */
+        -o-transform: scale(1.15);
+        /* Opera */
+        transform: scale(1.15);
+        -webkit-filter: saturate(1.5);
+        -moz-filter: saturate(1.5);
+        -o-filter: saturate(1.5);
+        -ms-filter: saturate(1.5);
+        filter: saturate(1.5); }
+  body a {
+    -webkit-transition: color 0.3s ease;
+    /* Safari and Chrome */
+    -moz-transition: color 0.3s ease;
+    /* Firefox */
+    -o-transition: color 0.3s ease;
+    /* IE 9 */
+    -ms-transition: color 0.3s ease;
+    /* Opera */
+    transition: color 0.3s ease; }
 
 /*# sourceMappingURL=rozmalowana.css.map */
