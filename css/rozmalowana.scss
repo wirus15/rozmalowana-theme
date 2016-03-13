@@ -15,5 +15,53 @@ body {
   }
   .services-wrap {
     max-width: 1140px !important;
+    margin-top: 0;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    .listpages {
+      width: auto;
+      float: none;
+      margin: 0 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      .image {
+        overflow: hidden;
+        img {
+          border: none;
+          object-fit: cover;
+          -webkit-transition: all 2s ease-out; /* Safari and Chrome */
+          -moz-transition: all 2s ease-out; /* Firefox */
+          -o-transition: all 2s ease-out; /* IE 9 */
+          -ms-transition: all 2s ease-out; /* Opera */
+          transition: all 2s ease-out;
+          -webkit-filter: saturate(0.8);
+          -moz-filter: saturate(0.8);
+          -o-filter: saturate(0.8);
+          -ms-filter: saturate(0.8);
+          filter: saturate(0.8);
+        }
+        &:hover img {
+          -webkit-transform:scale(1.25); /* Safari and Chrome */
+          -moz-transform:scale(1.25); /* Firefox */
+          -ms-transform:scale(1.25); /* IE 9 */
+          -o-transform:scale(1.25); /* Opera */
+          transform:scale(1.25);
+          -webkit-filter: saturate(1.5);
+          -moz-filter: saturate(1.5);
+          -o-filter: saturate(1.5);
+          -ms-filter: saturate(1.5);
+          filter: saturate(1.5);
+        }
+      }
+    }
   }
 }
